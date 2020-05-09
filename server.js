@@ -18,9 +18,9 @@ app.use(methodOverride('_method'));
 
 // const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/demo-2'
 
-//___________________
-//Database
-//___________________
+// =========
+// Database
+// =========
 // How to connect to the database either via heroku or locally
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/basiccrud'
 // Connect to Mongo
