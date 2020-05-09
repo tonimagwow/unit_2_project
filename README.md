@@ -5,13 +5,15 @@
 
 
 # Approach
-#### I started with creating four parent div's that had four children div's to create a 4x4 board with a total of 16 cards. I added a click call-back function within the individual div's to be able to identify what "card" was being selected. I also add a timeout function to the flipped cards that don't match, so after 1sec they go back to their original state. If the cards matched they became none-functional. I wanted to make a function that would shuffle the array, but I really struggled with it and in order to get "random" layout of cards I moved the div's around in the HTML. 
+#### My original idea was to create a blog about rugby and my long life friendships that I've made playing it, but then my idea changed and I wanted to make it about traveling and how much I love it. Then I realized I want to create a blog about things that I have a passion for, and that's how Antonio's Super Cool Blog Spot was born.
 
 ## Technology
 1. HTML
 2. CSS
-3. Javascript
-
+3. JSX
+4. Express
+5. MongoDB
+6. Node
 
 ## Things to revisit
 1. Create a place for others to comment on my blog.
@@ -23,8 +25,8 @@
 ## Personal & Challenges
 ### I learned a few things about myself when working on this project.
 1. Attention to detail continues to be something I keep having issues with. Going into this project I already knew where I needed to improve and I was able to catch some of my errors.
-2. Bootstrap can make things look really nice really quick. Though I found myself 
-3. Stick to my original ideas. When I first started working on my project I started with images inside of divs. After running into a few roadblocks, I scrapped my whole project and started from scratch. If I would of worked through the original problems I would of been more satisfied with what I've completed.
+2. Bootstrap can make things look really nice really quick (insert sarcasm). Before I knew it I was three hours in and I was still only half way through styling my Index page. I really did enjoy working with it and I'm looking forward to getting further into it.
+3. 
 
 ## Source and links
 
