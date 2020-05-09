@@ -5,7 +5,7 @@ class Show extends React.Component {
         const { _id, title, date, thoughts } = this.props.blog;
         return (
             <div>
-                <h1>Fruits Show Page</h1>
+                <h1>Antonio's Thoughts</h1>
                 <p>{title}</p>
                 <p>{date}</p>
                 <p>{thoughts}</p>

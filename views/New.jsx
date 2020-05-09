@@ -4,7 +4,7 @@ class New extends React.Component {
     render() {
       return (
           <div>
-              <h1>What's on your mind? NEW</h1>
+              <h1>What's on your mind?</h1>
 
               <form action="/blog" method="POST">
                   Blog Title: <input type="text" name="title" /><br/>

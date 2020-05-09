@@ -5,7 +5,7 @@ class Index extends React.Component {
         const { blog } = this.props;
         return (
             <div>
-                <h1>Antonio's Thoughts Index</h1>
+                <h1>Antonio's Thoughts</h1>
                 <nav>
                     <a href="/blog/new">Create a New Post</a>
                 </nav>
@@ -21,8 +21,8 @@ class Index extends React.Component {
                                     <form action={`/blog/${blog._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>
                                     </form>
-                                    {/* Create a link to the edit route /blog/id_of_blog/edit */}
-                                    <a href={`/blog/${blog._id}/edit`}>Edit</a>
+                                    {/* <a href={`/blog/${blog._id}?_method=DELETE`}>Delete Post</a><br/> */}
+                                    <a href={`/blog/${blog._id}/edit`}>Edit Post</a> <br/>
                                 </li>
                             )
                         })
