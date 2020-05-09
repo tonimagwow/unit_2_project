@@ -1,7 +1,7 @@
 # Antonio's Super Cool Blog Spot
 
-### Local Link http://localhost:3000/blog
-### Heroku Link https://antonios-super-cool-blog-spot.herokuapp.com/
+#### Local Link http://localhost:3000/blog
+#### Heroku Link https://antonios-super-cool-blog-spot.herokuapp.com/
 
 
 # Approach
@@ -23,13 +23,13 @@
 ## Personal & Challenges
 ### I learned a few things about myself when working on this project.
 1. Attention to detail continues to be something I keep having issues with. Going into this project I already knew where I needed to improve and I was able to catch some of my errors.
-2. Bootstrap is
+2. Bootstrap can make things look really nice really quick. Though I found myself 
 3. Stick to my original ideas. When I first started working on my project I started with images inside of divs. After running into a few roadblocks, I scrapped my whole project and started from scratch. If I would of worked through the original problems I would of been more satisfied with what I've completed.
 
 ## Source and links
 
 ### Bootstrap
 #### https://getbootstrap.com/
-### https://mdbootstrap.com/snippets/jquery/mdbootstrap/102236
-### https://www.creative-tim.com/blog/web-design/bootstrap-background-image/
+#### https://mdbootstrap.com/snippets/jquery/mdbootstrap/102236
+#### https://www.creative-tim.com/blog/web-design/bootstrap-background-image/
 
