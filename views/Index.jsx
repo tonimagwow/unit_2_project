@@ -1,5 +1,7 @@
 const React = require('react');
 
+
+
 class Index extends React.Component {
     render() {
         const { blog } = this.props;
@@ -15,11 +17,11 @@ class Index extends React.Component {
                             return (
                                 <li>
                                     Check out my post about <a href={`/blog/${blog._id}`}>{blog.title}</a> created on {blog.date}
-                                    <br></br>
+                                    
                                     <p>{blog.thoughts}</p>
                                     
                                     <form action={`/blog/${blog._id}?_method=DELETE`} method="POST">
-                                        <input type="submit" value="delete"/>
+                                        <input type="submit" value="Delete"/>
                                     </form>
                                     {/* <a href={`/blog/${blog._id}?_method=DELETE`}>Delete Post</a><br/> */}
                                     <a href={`/blog/${blog._id}/edit`}>Edit Post</a> <br/>

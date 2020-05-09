@@ -10,7 +10,7 @@ const blogSchema = new Schema({
     },
     date: { 
         type: String,
-        default: Date.now
+        default: Date.now()
         // required: true 
     },
     thoughts: {
