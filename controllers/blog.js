@@ -22,11 +22,7 @@ router.get('/new', (req, res) => {
 
 // Create
 router.post('/', (req, res) => {
-    if (req.body) {
-        req.body = true;
-    } else {
-        req.body = false;
-    }
+   
     // Use Model to create Blog Document
     Blog.create(req.body, (error, createdBlog) => {
         // Once created - respond to client
