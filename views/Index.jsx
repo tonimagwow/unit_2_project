@@ -8,7 +8,7 @@ class Index extends React.Component {
             <Default>
                 <div class="jumbotron">
                     <div class="container">
-                        <h1 class="mb-4 text-light bg-dark text-center">Antonio's Super Cool Blog</h1>
+                        <h1 class="mb-4 text-light bg-dark text-center">Antonio's Super Cool Blog Spot</h1>
                         <nav>
                             <a href="/blog/new" class="btn btn-success">Create a New Post</a>
                         </nav>
